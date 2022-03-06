@@ -25,7 +25,7 @@ export const setDataAC = (res: Array<dataType>) => {
 }
 
 export const getDataTC = () => (dispatch: Dispatch) => {
-    return getTestData.getData()
+    getTestData.getData()
         .then((res) => {
             dispatch(setDataAC(res as Array<dataType>))
         })

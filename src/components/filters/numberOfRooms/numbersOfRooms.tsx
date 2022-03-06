@@ -13,23 +13,29 @@ export const NumbersOfRooms = () => {
         {id: 3, name: '1+'},
         {id: 4, name: '2'},
         {id: 5, name: '2+'},
-        {id: 6, name: '3'}
+        {id: 6, name: '3'},
+        {id: 7, name: '3+'},
+        {id: 8, name: '4'},
 
     ])
+    const [idButton, setIdBotton] = useState(0)
     const [isActive, setIsActive] = useState<boolean>(false)
     const changeTheColorOfButton = (id: number) => {
         if (id) {
-            setIsActive(!isActive)
+            if (idButton !== id) {
+                setIdBotton(id)
+            } else {
+                setIdBotton(0)
+            }
         }
-
     }
     return <div className={s.wrapper}>
         <div className={s.container}>
             <div>
-                количество комнат
+                Количество комнат
             </div>
             {state.map((element) => <button key={element.id}
-                                            className={!isActive ? s.button : s.buttonActive}
+                                            className={idButton !== element.id ? s.button : s.buttonActive}
                                             onClick={() => changeTheColorOfButton(element.id)}>{element.name}</button>)}
         </div>
 

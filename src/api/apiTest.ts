@@ -1,9 +1,10 @@
-import jsonFile from "../assets/arrayOfLayouts/arrayOfLayouts.json";
+import {data} from "../assets/arrayOfLayouts/arrayOfLayouts";
+
 
 export const getTestData = {
     getData () {
         return new Promise(resolve => setTimeout(() => {
-            resolve(jsonFile)
+            resolve(data)
         }, 2000))
     }
 }
