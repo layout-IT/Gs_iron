@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Gs_iron/static/css/main.3f2abef2.css",
+    "main.js": "/Gs_iron/static/js/main.d7d1e13d.js",
+    "index.html": "/Gs_iron/index.html",
+    "main.3f2abef2.css.map": "/Gs_iron/static/css/main.3f2abef2.css.map",
+    "main.d7d1e13d.js.map": "/Gs_iron/static/js/main.d7d1e13d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f2abef2.css",
+    "static/js/main.d7d1e13d.js"
+  ]
+}
