@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Gs_iron/static/css/main.4a7a26d8.css",
-    "main.js": "/Gs_iron/static/js/main.bfc21e52.js",
+    "main.css": "/Gs_iron/static/css/main.3f5cd541.css",
+    "main.js": "/Gs_iron/static/js/main.c822d9f7.js",
     "index.html": "/Gs_iron/index.html",
-    "main.4a7a26d8.css.map": "/Gs_iron/static/css/main.4a7a26d8.css.map",
-    "main.bfc21e52.js.map": "/Gs_iron/static/js/main.bfc21e52.js.map"
+    "main.3f5cd541.css.map": "/Gs_iron/static/css/main.3f5cd541.css.map",
+    "main.c822d9f7.js.map": "/Gs_iron/static/js/main.c822d9f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a7a26d8.css",
-    "static/js/main.bfc21e52.js"
+    "static/css/main.3f5cd541.css",
+    "static/js/main.c822d9f7.js"
   ]
 }
