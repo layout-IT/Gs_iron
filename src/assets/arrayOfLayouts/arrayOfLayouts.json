@@ -1,0 +1,74 @@
+import {v1} from 'uuid'
+
+export const arrayOfLayouts = [
+    {
+        'id': 'v1()',
+        'name': 'Студия',
+        'housingComplexName': 'Ёлки-Park',
+        'planLink': 'https://',
+        'photos': [
+            {'photoLink': './img/img1.png'},
+            {'photoLink': './img/img2.png'}
+        ],
+        'sameLayoutFlatCount': '12',
+        'mibPrise': '3,5',
+        'numberOfMooms': '1',
+        'bathrooms': false,
+        'bathroom': true,
+        'largeLoggia': true,
+        'loggia': true,
+        'laundryRoom': true,
+        'project': 'ZNAK',
+        'price': '3 000 000',
+        'square': '25',
+        'deadlineForDelivery': '1кв.2021',
+        'ceiling height': '2,5 стандарт'
+    },
+    {
+        'id': 'v1()',
+        'name': 'Студия',
+        'housingComplexName': 'Ёлки-Park',
+        'planLink': 'https://',
+        'photos': [
+            {'photoLink': './img/img1.png'},
+            {'photoLink': './img/img2.png'}
+        ],
+        'sameLayoutFlatCount': '12',
+        'mibPrise': '3,5',
+        'numberOfMooms': '1',
+        'bathrooms': false,
+        'bathroom': true,
+        'largeLoggia': true,
+        'loggia': true,
+        'laundryRoom': true,
+        'project': 'На Ломоносова',
+        'price': '3 000 000',
+        'square': '25',
+        'deadlineForDelivery': '1кв.2021',
+        'ceiling height': '3,0 хайфлет'
+    },
+    {
+        'id': 'v1()',
+        'name': 'Студия',
+        'housingComplexName': 'Ёлки-Park',
+        'planLink': 'https://',
+        'photos': [
+            {'photoLink': './img/img1.png'},
+            {'photoLink': './img/img2.png'}
+        ],
+        'sameLayoutFlatCount': '12',
+        'mibPrise': '3,5',
+        'numberOfMooms': '1',
+        'bathrooms': false,
+        'bathroom': true,
+        'largeLoggia': true,
+        'loggia': true,
+        'laundryRoom': true,
+        'project': 'На Ломоносова',
+        'price': '3 000 000',
+        'square': '25',
+        'deadlineForDelivery': '1кв.2021',
+        'ceiling height': '2,7 комфорт'
+    },
+
+]
