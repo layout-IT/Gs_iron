@@ -1,0 +1,35 @@
+.wrapper{
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.nextArray{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+.text{
+  position: relative;
+  cursor: pointer;
+  width: 200px;
+  color: #0060AF;
+  margin-top: 9px;
+  &::after{
+    content: '🡳';
+    position: absolute;
+    top: 2px;
+    right: 68px;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+  }
+}

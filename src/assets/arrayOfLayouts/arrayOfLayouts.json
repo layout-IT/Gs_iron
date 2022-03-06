@@ -1,74 +1,72 @@
-import {v1} from 'uuid'
 
-export const arrayOfLayouts = [
+[
     {
-        'id': 'v1()',
-        'name': 'Студия',
-        'housingComplexName': 'Ёлки-Park',
-        'planLink': 'https://',
-        'photos': [
-            {'photoLink': './img/img1.png'},
-            {'photoLink': './img/img2.png'}
+        "id": "1",
+        "name": "Студия",
+        "housingComplexName": "Ёлки-Park",
+        "planLink": "https://",
+        "photos": [
+            {"photoLink": "https://5-img.onrealt.ru/files/07-2020/14/53/f4/elektrougli-kypit-proizvodstvo-sovetskaya-ulitca-5-766946270.jpg"},
+            {"photoLink": "http://murinsky-posad-spb.ru/wp-content/uploads/61.03.jpg"}
         ],
-        'sameLayoutFlatCount': '12',
-        'mibPrise': '3,5',
-        'numberOfMooms': '1',
-        'bathrooms': false,
-        'bathroom': true,
-        'largeLoggia': true,
-        'loggia': true,
-        'laundryRoom': true,
-        'project': 'ZNAK',
-        'price': '3 000 000',
-        'square': '25',
-        'deadlineForDelivery': '1кв.2021',
-        'ceiling height': '2,5 стандарт'
+        "sameLayoutFlatCount": "12",
+        "mibPrise": "3,5",
+        "numberOfMooms": "1",
+        "bathrooms": false,
+        "bathroom": true,
+        "largeLoggia": true,
+        "loggia": true,
+        "laundryRoom": true,
+        "project": "ZNAK",
+        "price": "3 000 000",
+        "square": "25",
+        "deadlineForDelivery": "1кв.2021",
+        "ceiling height": "2,5 стандарт"
     },
     {
-        'id': 'v1()',
-        'name': 'Студия',
-        'housingComplexName': 'Ёлки-Park',
-        'planLink': 'https://',
-        'photos': [
-            {'photoLink': './img/img1.png'},
-            {'photoLink': './img/img2.png'}
+        "id": "2",
+        "name": "Студия",
+        "housingComplexName": "Ёлки-Park",
+        "planLink": "https://",
+        "photos": [
+            {"photoLink": "https://5-img.onrealt.ru/files/07-2020/14/53/f4/elektrougli-kypit-proizvodstvo-sovetskaya-ulitca-5-766946270.jpg"},
+            {"photoLink": "http://murinsky-posad-spb.ru/wp-content/uploads/61.03.jpg"}
         ],
-        'sameLayoutFlatCount': '12',
-        'mibPrise': '3,5',
-        'numberOfMooms': '1',
-        'bathrooms': false,
-        'bathroom': true,
-        'largeLoggia': true,
-        'loggia': true,
-        'laundryRoom': true,
-        'project': 'На Ломоносова',
-        'price': '3 000 000',
-        'square': '25',
-        'deadlineForDelivery': '1кв.2021',
-        'ceiling height': '3,0 хайфлет'
+        "sameLayoutFlatCount": "12",
+        "mibPrise": "3,5",
+        "numberOfMooms": "1",
+        "bathrooms": false,
+        "bathroom": true,
+        "largeLoggia": true,
+        "loggia": true,
+        "laundryRoom": true,
+        "project": "На Ломоносова",
+        "price": "3 000 000",
+        "square": "35",
+        "deadlineForDelivery": "1кв.2021",
+        "ceiling height": "3,0 хайфлет"
     },
     {
-        'id': 'v1()',
-        'name': 'Студия',
-        'housingComplexName': 'Ёлки-Park',
-        'planLink': 'https://',
-        'photos': [
-            {'photoLink': './img/img1.png'},
-            {'photoLink': './img/img2.png'}
+        "id": "3",
+        "name": "Студия",
+        "housingComplexName": "Ёлки-Park",
+        "planLink": "https://",
+        "photos": [
+            {"photoLink": "https://5-img.onrealt.ru/files/07-2020/14/53/f4/elektrougli-kypit-proizvodstvo-sovetskaya-ulitca-5-766946270.jpg"},
+            {"photoLink": "http://murinsky-posad-spb.ru/wp-content/uploads/61.03.jpg"}
         ],
-        'sameLayoutFlatCount': '12',
-        'mibPrise': '3,5',
-        'numberOfMooms': '1',
-        'bathrooms': false,
-        'bathroom': true,
-        'largeLoggia': true,
-        'loggia': true,
-        'laundryRoom': true,
-        'project': 'На Ломоносова',
-        'price': '3 000 000',
-        'square': '25',
-        'deadlineForDelivery': '1кв.2021',
-        'ceiling height': '2,7 комфорт'
-    },
-
+        "sameLayoutFlatCount": "12",
+        "mibPrise": "3,5",
+        "numberOfMooms": "1",
+        "bathrooms": false,
+        "bathroom": true,
+        "largeLoggia": true,
+        "loggia": true,
+        "laundryRoom": true,
+        "project": "На Ломоносова",
+        "price": "3 000 000",
+        "square": "45",
+        "deadlineForDelivery": "1кв.2021",
+        "ceiling height": "2,7 комфорт"
+    }
 ]

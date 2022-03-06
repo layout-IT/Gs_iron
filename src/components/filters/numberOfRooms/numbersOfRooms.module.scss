@@ -1,0 +1,31 @@
+
+.button {
+  margin-right: 4px;
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #E4E7EA;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 140%;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.buttonActive {
+  margin-right: 4px;
+  width: 33px;
+  height: 33px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #E4E7EA;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 140%;
+  background: yellow;
+
+
+}
