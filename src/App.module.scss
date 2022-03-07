@@ -29,23 +29,12 @@ dd {
   margin: 0;
 }
 
-/* Выставляем основные настройки по-умолчанию для body */
+///* Выставляем основные настройки по-умолчанию для body */
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-}
-
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
 }
 
 /* Упрощаем работу с изображениями */
@@ -66,6 +55,7 @@ textarea,
 select {
   font: inherit;
 }
+
 button {
   padding: 0;
   border: none;
@@ -74,43 +64,41 @@ button {
   background-color: transparent;
 }
 
-/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-.wrapper{
+.wrapper {
   background-color: white;
   background: #FFFFFF;
   box-shadow: 0px -6px 20px rgba(0, 19, 35, 0.4);
   border-radius: 8px;
   display: flex;
 }
-.main{
-  width: 80%;
+
+.main {
+  width: 100%;
   background: #F5F6F7;
   border-radius: 8px;
   padding: 25px 34px;
 }
-.header{
+
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.headerRightSide{
+
+.headerRightSide {
   display: flex;
 }
-.textFilter{
+
+.textFilter {
   position: relative;
   margin-right: 10px;
   font-family: Montserrat;
   font-size: 16px;
   line-height: 20px;
-  &:before{
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:before {
     content: '👁‍🗨';
     position: absolute;
     top: 0;
@@ -119,13 +107,48 @@ button {
     height: 15px;
   }
 }
-.textReset{
+
+.withoutFilteringWindow {
+  position: relative;
+  margin-right: 10px;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #a1a1a1;
+  transition: all 0.3s ease;
+
+  &:before {
+    content: '👁‍🗨';
+    position: absolute;
+    top: 0;
+    left: -24px;
+    width: 15px;
+    height: 15px;
+  }
+}
+
+.textReset {
   font-family: Montserrat;
   font-size: 14px;
   line-height: 140%;
   color: #0060AF;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #568ab3;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+    left: 0;
+
+  }
 }
-.title{
+
+.title {
   font-family: Montserrat;
   font-weight: 600;
   font-size: 30px;

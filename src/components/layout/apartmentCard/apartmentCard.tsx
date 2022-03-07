@@ -1,5 +1,6 @@
 import s from "../layout.module.scss";
 import {photosType} from "../../../api/apiTest";
+import React from "react";
 
 type apartmentCardType = {
     square: number
@@ -9,7 +10,7 @@ type apartmentCardType = {
     sameLayoutFlatCount: number
     price: number
 }
-export const ApartmentCard = (props: apartmentCardType) => {
+export const ApartmentCard = React.memo((props: apartmentCardType) => {
     return <div className={s.column}>
         <div className={s.item}>
             <img className={s.image}
@@ -20,4 +21,4 @@ export const ApartmentCard = (props: apartmentCardType) => {
             <div>{`${props.sameLayoutFlatCount} квартир , от  ${props.price.toLocaleString('ru-RU')} руб.`}</div>
         </div>
     </div>
-}
+})

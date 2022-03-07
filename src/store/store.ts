@@ -3,7 +3,7 @@ import thunkMiddleware from 'redux-thunk'
 import {layoutReducer} from "../redux/layout-reducer/layoutReducer";
 
 const rootReducer = combineReducers({
-    layoutReducer : layoutReducer
+    layoutReducer: layoutReducer
 })
 
 export type RootState = ReturnType<typeof store.getState>

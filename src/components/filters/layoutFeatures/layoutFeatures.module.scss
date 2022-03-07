@@ -1,15 +1,18 @@
-.wrapper{
+.wrapper {
+  margin-bottom: 15px;
+}
 
-}
-.container{
+.container {
   display: flex;
   flex-direction: column;
 }
-.nextArray{
+
+.nextArray {
   display: flex;
   flex-direction: column;
 }
-.title{
+
+.title {
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
@@ -17,13 +20,15 @@
   line-height: 20px;
   margin-bottom: 8px;
 }
-.text{
+
+.text {
   position: relative;
   cursor: pointer;
   width: 200px;
   color: #0060AF;
   margin-top: 9px;
-  &::after{
+
+  &::after {
     content: '🡳';
     position: absolute;
     top: 2px;

@@ -1,6 +1,7 @@
-.wrapper{
+.wrapper {
   margin-bottom: 25px;
 }
+
 .button {
   margin-right: 4px;
   width: 33px;
@@ -11,9 +12,21 @@
   font-family: Montserrat;
   font-size: 12px;
   line-height: 140%;
+  transition: all 0.3s ease;
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &:hover {
+    position: relative;
+    top: 2px;
+    left: 0;
+    box-shadow: 2px 2px 5px #033258;
+  }
+
+  &:active {
+    transition: all 0.3s ease
   }
 }
 
@@ -27,8 +40,18 @@
   font-family: Montserrat;
   font-size: 12px;
   line-height: 140%;
-  background: yellow;
+  background: #0060AF;
+  color: white;
+  transition: all 0.3s ease;
+
+  &:hover {
+    position: relative;
+    top: 2px;
+    left: 0;
+    box-shadow: 2px 2px 5px #033258;
+  }
 }
-.title{
+
+.title {
   margin-bottom: 8px;
 }
